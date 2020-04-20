@@ -27,12 +27,11 @@ I want to find Correlation and Causality to the Bitcoin Price by shifting all ot
 For Example: Shifting all supportive Features one month to past gives me the freedom to look one month into the future for forcasting.
 These notebooks will show my course of action:
 
-  * [01 Correlation Analysis](https://github.com/herrfeder/DataScientist/blob/master/Project_05_Capstone_Stock_Chart_Analysis/01_corr_analysis.ipynb)
-  * [02 Stationarity and Causality Analysis](https://github.com/herrfeder/DataScientist/blob/master/Project_05_Capstone_Stock_Chart_Analysis/stationarity_causality_analysis.ipynb)
-  * [03 SARIMA Modelling](https://github.com/herrfeder/DataScientist/blob/master/Project_05_Capstone_Stock_Chart_Analysis/03_1_model_ARIMAX.ipynb)
-  * [04 GRU Modelling](https://github.com/herrfeder/DataScientist/blob/master/Project_05_Capstone_Stock_Chart_Analysis/04_model_GRU.ipynb)
-  * [05 Decision Algorithm](https://github.com/herrfeder/DataScientist/blob/master/Project_05_Capstone_Stock_Chart_Analysis/05_decision_algorithm.ipynb)
-
+  * [01 Correlation Analysis](https://github.com/herrfeder/Udacity-DataScientist-Nanodegree-Capstone-Project-Stock-Market-Prediction/blob/master/01_corr_analysis.ipynb)
+  * [02 Stationarity and Causality Analysis](https://github.com/herrfeder/Udacity-DataScientist-Nanodegree-Capstone-Project-Stock-Market-Prediction/blob/master/02_stationarity_causality_analysis.ipynb)
+  * [03 SARIMA Modelling](https://github.com/herrfeder/Udacity-DataScientist-Nanodegree-Capstone-Project-Stock-Market-Prediction/blob/master/03_1_model_ARIMAX.ipynb)
+  * [04 GRU Modelling](https://github.com/herrfeder/Udacity-DataScientist-Nanodegree-Capstone-Project-Stock-Market-Prediction/blob/master/04_model_GRU.ipynb)
+  * [05 Decision Algorithm](https://github.com/herrfeder/Udacity-DataScientist-Nanodegree-Capstone-Project-Stock-Market-Prediction/blob/master/05_decision_algorithm.ipynb)
 
 
 ## Screenshots of Webapp
