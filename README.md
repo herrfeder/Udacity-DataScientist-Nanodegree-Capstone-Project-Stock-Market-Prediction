@@ -33,6 +33,22 @@ These notebooks will show my course of action:
   * [04 GRU Modelling](https://github.com/herrfeder/Udacity-DataScientist-Nanodegree-Capstone-Project-Stock-Market-Prediction/blob/master/04_model_GRU.ipynb)
   * [05 Decision Algorithm](https://github.com/herrfeder/Udacity-DataScientist-Nanodegree-Capstone-Project-Stock-Market-Prediction/blob/master/05_decision_algorithm.ipynb)
 
+## Included Files
+  
+  * __webapp__: Folder that holds the files and folders for the Dash webapp. For installation and deployment, look into it
+  * __00_scrape_googletrend.ipynb__: Scraping Google Trends
+  * __00_scrape_twitter.py__: Scrape Twitter using Twint
+  * __00_tweet_to_sent.ipynb__: Convert collected tweets to sentiment scores
+  * __01_corr_analysis.ipynb__: Data Processing, Merging and Correlative Analysis
+  * __02_stationarity_causality_analysis.ipynb__: Analysis for Stationarity and Causality
+  * __03_1_model_ARIMAX__: Modelling and Validation for SARIMAX model
+  * __03_2_model_ARIMAX_optimization.py__: Optimizing SARIMAX model by testing different sets of features
+  * __03_3_investigate_feature_optimization.ipynb__: Finding model with best performance from previous test
+  * __04_model_GRU.ipynb__: Modelling and Validation for GRU model
+  * __data/__: Holds all source data described as above
+  * __arimax_results/__: holds the results for SARIMAX feature optimization
+  * __data_prep_helper.py__: consists of helper classes to read, process, shift and split data and do forecasting
+  * __plot_helper.py__: consists of different supportive plotly functions 
 
 ## Screenshots of Webapp
 
@@ -44,12 +60,12 @@ These notebooks will show my course of action:
 ## Used Data
 
 1. Stock Market Data for the last five years from [Investing.com](https://www.investing.com) for:
-  * Bitcoin, DAX, SP500, Google, Amazon, Alibaba
+    * Bitcoin, DAX, SP500, Google, Amazon, Alibaba
 2. Google Trends for keywords "bitcoin", "cryptocurrency", "ethereum", "trading", "etf" using this notebook 
-  * [00_scrape_googletrend.ipynb](https://github.com/herrfeder/DataScientist/blob/master/Project_05_Capstone_Stock_Chart_Analysis/00_scrape_googletrend.ipynb)
+    * [00_scrape_googletrend.ipynb](https://github.com/herrfeder/DataScientist/blob/master/Project_05_Capstone_Stock_Chart_Analysis/00_scrape_googletrend.ipynb)
 3. Twitter Sentiments for keyword "bitcoin" and "#economy" using notebooks 
-  * [00_scrape_twitter.py](blubb)
-  * [00_tweet_to_sent.ipynb](blubb)
+    * [00_scrape_twitter.py](blubb)
+    * [00_tweet_to_sent.ipynb](blubb)
 
 ## Used Libaries
 
@@ -73,24 +89,6 @@ These notebooks will show my course of action:
     * [Tensorflow](https://github.com/tensorflow/tensorflow)
     * [Keras](https://github.com/keras-team/keras)
 
-
-
-## Included Other Files
-  
-  * __webapp__: Folder that holds the files and folders for the Dash webapp. For installation and deployment, look into it
-  * __00_scrape_googletrend.ipynb__: Scraping Google Trends
-  * __00_scrape_twitter.py__: Scrape Twitter using Twint
-  * __00_tweet_to_sent.ipynb__: Convert collected tweets to sentiment scores
-  * __01_corr_analysis.ipynb__: Data Processing, Merging and Correlative Analysis
-  * __02_stationarity_causality_analysis.ipynb__: Analysis for Stationarity and Causality
-  * __03_1_model_ARIMAX__: Modelling and Validation for SARIMAX model
-  * __03_2_model_ARIMAX_optimization.py__: Optimizing SARIMAX model by testing different sets of features
-  * __03_3_investigate_feature_optimization.ipynb__: Finding model with best performance from previous test
-  * __04_model_GRU.ipynb__: Modelling and Validation for GRU model
-  * __data/__: Holds all source data described as above
-  * __arimax_results/__: holds the results for SARIMAX feature optimization
-  * __data_prep_helper.py__: consists of helper classes to read, process, shift and split data and do forecasting
-  * __plot_helper.py__: consists of different supportive plotly functions 
 
 ## Brief Results
 
